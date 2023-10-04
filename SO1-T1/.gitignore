@@ -1,9 +1,0 @@
-# Ignorar arquivos e diretórios gerados pelo sistema
-.vscode/
-.idea/
-
-# Ignorar arquivos de compilação
-*.o
-*.out
-*.exe
-main
