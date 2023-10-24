@@ -33,10 +33,8 @@ int main(int argc, char* argv[]) {
     auto refsSize = refs.size();
     // Executa os algoritmos.
     for (PageReplacementAlgorithm* algorithm : algorithms) {
-        std::vector<int> refs_copy = refs;
-        while (!refs_copy.empty()) {
-            algorithm->referencePage(refs_copy.front());            
-            refs_copy.erase(refs_copy.begin());
+        for (int ref : refs) {
+            algorithm->referencePage(ref);
         }
         ram.reset();
     }
