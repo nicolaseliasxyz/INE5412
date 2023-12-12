@@ -1,0 +1,3 @@
+### INE5412 - Sistemas Operacionais I - T3 - Sistemas de Arquivos SimpleFS
+Para compilar: make
+Para executar: -> disco novo: ./simplefs mydisk nblocks | restaurar disco existente -> ./simplefs assets/image.20 20 
