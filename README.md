@@ -4,3 +4,4 @@ Disciplina de Ciências da Computação INE5412 - Sistemas Operacionais I Univer
 
 T1: Simulação de Algoritmos de Escalonamento.
 T2: Simulação de Algoritmos de Substituição de paginas.
+T3: Sistemas de Arquivos SimpleFS
